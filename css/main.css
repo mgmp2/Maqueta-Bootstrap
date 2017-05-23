@@ -14,7 +14,7 @@
 #checklist .img-relative img {
   transform: translateX(-100%) rotateZ(-5deg)
 }
-.check-hw img {
+.check-hw img: ; {
   height: 20px!important;
 }
 
@@ -25,6 +25,12 @@
 .img-absolute {
   position: absolute;
 
+}
+.check-hw > div {
+  background: #fff;
+color: #000;
+border-radius: 8px;
+  border-color: #000;
 }
 
 
