@@ -1,6 +1,25 @@
+.img-circle {
+  width: 224px;
+  height: 224px;
+  padding: 14px;
+}
+.icon-absolute {
+  position: absolute;
+  background-size: 18rem;
+  height: 100%;
+  width: 80%;
+}
+/* Small devices (tablets, 641px and up) */
+@media (min-width:641px)  {
+  .icon-absolute {
+  }
+  .img-circle {
+    height: 228px;
+  }
+ }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
+@media (min-width:1025px)  {
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
+
+}
