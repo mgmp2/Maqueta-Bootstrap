@@ -9,6 +9,25 @@
   height: 100%;
   width: 80%;
 }
+/*CHECKLIST */
+
+#checklist .img-relative img {
+  transform: translateX(-100%) rotateZ(-5deg)
+}
+.check-hw img {
+  height: 20px!important;
+}
+
+.img-relative {
+  position: relative;
+  left: 80%;
+}
+.img-absolute {
+  position: absolute;
+
+}
+
+
 /* Small devices (tablets, 641px and up) */
 @media (min-width:641px)  {
   .icon-absolute {
