@@ -1,25 +1,67 @@
-.img-circle {
-  width: 224px;
-  height: 224px;
-  padding: 14px;
-}
+
 .icon-absolute {
   position: absolute;
   background-size: 18rem;
   height: 100%;
   width: 80%;
 }
-/* Small devices (tablets, 641px and up) */
-@media (min-width:641px)  {
-  .icon-absolute {
-  }
-  .img-circle {
-    height: 228px;
-  }
- }
+
+/*INFO*/
+#info .row {
+  padding: 21px 0;
+}
+.img-circle {
+  width: 224px;
+  height: 224px;
+  padding: 14px;
+  margin: 0 auto;
+}
+/*CHECKLIST */
+
+#checklist .img-relative img {
+  transform: translateX(-100%) rotateZ(-5deg)
+}
+.check-hw img: ; {
+  height: 20px!important;
+}
+
+.img-relative {
+  position: relative;
+  left: 80%;
+}
+.img-absolute {
+  position: absolute;
+
+}
+.check-hw > div {
+  background: #fff;
+color: #000;
+border-radius: 8px;
+  border-color: #000;
+}
+
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:1025px)  {
 
-
+  /*INFO*/
+  .icon-absolute {
+    background-size: 23rem;
+    right: 0;
+    top: 28px;
+  }
+  .img-circle {
+    width: 289px;
+    height: 289px;
+  }
+  #info .row > div:nth-child(2) {
+    text-align: left;
+  }
+  #info .row > div:nth-child(2) h3 > strong{
+    font-size: 4rem;
+  }
+  #info .row > div:nth-child(2) strong {
+    font-size: 1.8rem;
+  }
+  
 }
