@@ -2,6 +2,9 @@
   margin:0;
   box-sizing: border-box;
 }
+p {
+  font-weight: 700;
+}
 .icon-absolute {
   position: absolute;
   background-size: 18rem;
@@ -50,8 +53,16 @@ border-radius: 8px;
     height: 20px;
     position: absolute;
 }
-
-
+footer ul >li {
+  text-align: center;
+}
+footer ul >li a,
+footer ul >li a:hover {
+  color: #fff;
+}
+footer ul >li a:hover, footer ul >li a:focus {
+  background: rgba(255, 255, 255, 0)!important;
+}
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:768px)  {
 
