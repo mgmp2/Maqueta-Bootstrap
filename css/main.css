@@ -7,6 +7,9 @@
 }
 
 /*INFO*/
+#info{
+  background: #F9F9F9;
+}
 #info .row {
   padding: 21px 0;
 }
@@ -63,5 +66,5 @@ border-radius: 8px;
   #info .row > div:nth-child(2) strong {
     font-size: 1.8rem;
   }
-  
+
 }
