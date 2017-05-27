@@ -93,7 +93,17 @@ footer ul >li a:hover, footer ul >li a:focus {
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:768px)  {
+  /*GENERAL*/
+  #promise h2,
+  #checklist h2 {
+    font-size: 63px;
+  }
+  #promise .container > p,
+  #checklist .container > p {
+    padding: 0 10em;
+    font-size: 21px;
 
+  }
   /*INFO*/
   .icon-absolute {
     background-size: 23rem;
@@ -114,16 +124,6 @@ footer ul >li a:hover, footer ul >li a:focus {
     font-size: 1.8rem;
   }
   /*PROMISE*/
-
-  #promise .container > p {
-    padding: 0 10em;
-  }
-  #promise h2 {
-    font-size: 63px;
-  }
-  #promise .container > p {
-    font-size: 21px;
-  }
   .collapse {
     display: block;
     height: auto!important;
