@@ -5,6 +5,11 @@
 p {
   font-weight: 700;
 }
+[class*="icon-"] {
+  width: 20px;
+  height: 20px;
+
+}
 .icon-absolute {
   position: absolute;
   background-size: 18rem;
@@ -24,6 +29,24 @@ p {
   height: 224px;
   padding: 14px;
   margin: 0 auto;
+}
+/*PROMISE */
+#promise h5,
+#promise .glyphicon {
+  color: #6EA43F;
+  font-weight: 600;
+}
+#promise .row > [class="col-xs-12 col-sm-4"] {
+  margin: 14px 0;
+}
+
+#promise [class*="icon-"] {
+width: 56px;
+height: 56px;
+background-size: 100%;
+}
+#promise .glyphicon-chevron-down {
+  top: 11px;
 }
 /*CHECKLIST */
 
@@ -79,7 +102,7 @@ footer ul >li a:hover, footer ul >li a:focus {
   #info .row > div:nth-child(2) {
     text-align: left;
   }
-  #info .row > div:nth-child(2) h3 > strong{
+  #info .row > div:nth-child(2) h3 > strong {
     font-size: 4rem;
   }
   #info .row > div:nth-child(2) strong {
