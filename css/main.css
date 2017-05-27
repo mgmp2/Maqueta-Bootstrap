@@ -11,7 +11,7 @@
     background-image: url('../assets/images/background/testimonials.jpg');
     background-repeat: no-repeat;
     display: block;
-    width: 102px;
+    width: 100px;
     height: 102px;
   }
   .test-jes {
@@ -35,12 +35,12 @@
   #quote h2  {
     font-size: 63px;
   }
-  #banner .container  p,
-  #info .container  p,
-  #promise .container  p,
-  #community .container  p,
-  #checklist .container  p ,
-  #quote .container  p {
+  #banner .container > p,
+  #info .container > p,
+  #promise .container > p,
+  #community .container > p,
+  #checklist .container > p ,
+  #quote .container > p {
     padding: 0 10em;
     font-size: 21px;
     padding-bottom: 35px;
