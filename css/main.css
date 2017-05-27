@@ -8,29 +8,7 @@
   height: 20px;
 
 }
-.icon-absolute {
-  position: absolute;
-  background-size: 18rem;
-  height: 100%;
-  width: 80%;
-}
 
-/*INFO*/
-#info{
-  background: #F9F9F9;
-}
-#info p {
-  font-weight: 700;
-}
-#info .row {
-  padding: 21px 0;
-}
-.img-circle {
-  width: 224px;
-  height: 224px;
-  padding: 14px;
-  margin: 0 auto;
-}
 /*PROMISE */
 
 #promise h5,
@@ -104,25 +82,7 @@ footer ul >li a:hover, footer ul >li a:focus {
     font-size: 21px;
 
   }
-  /*INFO*/
-  .icon-absolute {
-    background-size: 23rem;
-    right: 0;
-    top: 28px;
-  }
-  .img-circle {
-    width: 289px;
-    height: 289px;
-  }
-  #info .row > div:nth-child(2) {
-    text-align: left;
-  }
-  #info .row > div:nth-child(2) h3 > strong {
-    font-size: 4rem;
-  }
-  #info .row > div:nth-child(2) strong {
-    font-size: 1.8rem;
-  }
+  
   /*PROMISE*/
   .collapse {
     display: block;
