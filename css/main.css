@@ -23,6 +23,19 @@
   .test-nic {
     background-position: 0 -204px;
   }
+  .circle {
+    border-radius: 50%
+  }
+  /*COMMUNITY*/
+  [class*="test-"]{
+    margin: 0 auto;
+  }
+  .icon--rating-5 {
+    width: 80px;
+    margin: 0 auto;
+    display: block;
+    height: 21px;
+  }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:1025px)  {
