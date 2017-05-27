@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 * {
+  font-family: 'Roboto', Arial, sans-serif;
   margin:0;
   box-sizing: border-box;
 }
 
-[class*="icon-"] {
+/*PROMISE */
+
+#promise [class*="icon-"] {
   width: 20px;
   height: 20px;
 
 }
-
-/*PROMISE */
-
 #promise h5,
 #promise .glyphicon {
   color: #6EA43F;
@@ -19,10 +21,6 @@
 #promise hr {
   width: 100%;
 }
-#promise .row > [class*="col-xs-12 col-sm-4"] {
-  margin: 14px 0;
-}
-
 #promise [class*="icon-"] {
 width: 56px;
 height: 56px;
@@ -31,46 +29,8 @@ background-size: 100%;
 #promise .glyphicon-chevron-down {
   top: 11px;
 }
-/*CHECKLIST */
-
-#checklist .img-relative img {
-  transform: translateX(-100%) rotateZ(-5deg)
-}
-.check-hw img: ; {
-  height: 20px!important;
-}
-
-.img-relative {
-  position: relative;
-  left: 80%;
-}
-.img-absolute {
-  position: absolute;
-
-}
-.check-hw > div {
-  background: #fff;
-color: #000;
-border-radius: 8px;
-  border-color: #000;
-}
-.check-hw ul > li span {
-  width: 20px;
-    height: 20px;
-    position: absolute;
-}
-footer ul >li {
-  text-align: center;
-}
-footer ul >li a,
-footer ul >li a:hover {
-  color: #fff;
-}
-footer ul >li a:hover, footer ul >li a:focus {
-  background: rgba(255, 255, 255, 0)!important;
-}
 /* Medium devices (desktops, 992px and up) */
-@media (min-width:768px)  {
+@media (min-width:1025px)  {
   /*GENERAL*/
   #promise h2,
   #checklist h2 {
@@ -80,9 +40,9 @@ footer ul >li a:hover, footer ul >li a:focus {
   #checklist .container > p {
     padding: 0 10em;
     font-size: 21px;
-
+    padding-bottom: 35px;
   }
-  
+
   /*PROMISE*/
   .collapse {
     display: block;
@@ -92,10 +52,6 @@ footer ul >li a:hover, footer ul >li a:focus {
   #promise p {
     text-align: center;
   }
-  /*FOOTER*/
-  footer ul *{
-    text-align: left;
-    font-size: 14px;
-  }
+
 
 }
