@@ -38,17 +38,22 @@
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:1025px)  {
   /*GENERAL*/
+  #banner h2,
+  #info h2,
   #promise h2,
+  #community h2,
   #checklist h2,
-  #info h2 {
-    font-size: 2.8em;
+  #quote h2  {
+    font-size: 49px;
   }
-  #promise .container > p,
-  #checklist .container > p,
-  #info p {
-    
-    font-size: 1.5em;
-    
+  #banner .container  p,
+  #info .container  p,
+  #promise .container  p,
+  #community .container  p,
+  #checklist .container  p ,
+  #quote .container  p {
+    font-size: 21px;
+    padding-bottom: 35px;
   }
 
   /*INFO*/
@@ -56,12 +61,7 @@
     padding-right: 28px;
     padding-left: 28px;
   }
-  /*#info h2 {
-    font-size: 2.8em;
-  }*/
-  /*#info p {
-    font-size: 1.5em;
-  }*/
+
   .icon-relative {
     width: 80%;
     height: 268px;
