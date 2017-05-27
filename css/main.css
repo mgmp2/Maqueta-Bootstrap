@@ -46,12 +46,12 @@
   #quote h2  {
     font-size: 49px;
   }
-  #banner .container  p,
-  #info .container  p,
-  #promise .container  p,
-  #community .container  p,
-  #checklist .container  p ,
-  #quote .container  p {
+  #banner .container > p,
+  #info .container p,
+  #promise .container > p,
+  #community .container > p,
+  #checklist .container > p ,
+  #quote .container > p {
     font-size: 21px;
     padding-bottom: 35px;
   }
