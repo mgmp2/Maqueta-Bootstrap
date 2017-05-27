@@ -1,17 +1,14 @@
 
-.icon-absolute {
-  position: absolute;
-  background-size: 18rem;
-  height: 100%;
-  width: 80%;
-}
 
 /*INFO*/
 #info{
   background: #F9F9F9;
 }
+#info p {
+  font-weight: 700;
+}
 #info .row {
-  padding: 21px 0;
+  padding: 21px 49px;
 }
 .img-circle {
   width: 224px;
@@ -19,30 +16,6 @@
   padding: 14px;
   margin: 0 auto;
 }
-/*CHECKLIST */
-
-#checklist .img-relative img {
-  transform: translateX(-100%) rotateZ(-5deg)
-}
-.check-hw img: ; {
-  height: 20px!important;
-}
-
-.img-relative {
-  position: relative;
-  left: 80%;
-}
-.img-absolute {
-  position: absolute;
-
-}
-.check-hw > div {
-  background: #fff;
-color: #000;
-border-radius: 8px;
-  border-color: #000;
-}
-
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:1025px)  {
@@ -60,7 +33,7 @@ border-radius: 8px;
   #info .row > div:nth-child(2) {
     text-align: left;
   }
-  #info .row > div:nth-child(2) h3 > strong{
+  #info .row > div:nth-child(2) h3 > strong {
     font-size: 4rem;
   }
   #info .row > div:nth-child(2) strong {
