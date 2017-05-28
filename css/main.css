@@ -6,6 +6,24 @@
   box-sizing: border-box;
 }
 
+/*SPRITE*/
+  .test-jes , .test-nic, .test-ren {
+    background-image: url('../assets/images/background/testimonials.jpg');
+    background-repeat: no-repeat;
+    display: block;
+    width: 100px;
+    height: 102px;
+  }
+  .test-jes {
+    background-position: 0 0;
+  }
+  .test-ren {
+    background-position: 0 -102px;
+  }
+  .test-nic {
+    background-position: 0 -204px;
+  }
+
 /*INFO*/
 #info{
   background: #F9F9F9;
@@ -47,7 +65,7 @@
     font-size: 49px;
   }
   #banner .container > p,
-  #info .container p,
+  #info .container > p,
   #promise .container > p,
   #community .container > p,
   #checklist .container > p ,
