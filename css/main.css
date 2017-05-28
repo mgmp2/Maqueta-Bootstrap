@@ -94,7 +94,6 @@
   #community .container > p,
   #checklist .container > p ,
   #quote .container > p {
-    padding: 0 10em;
     font-size: 21px;
     padding-bottom: 35px;
   }
