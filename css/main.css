@@ -39,25 +39,7 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:1025px)  {
-  /*GENERAL*/
-  #banner h2,
-  #info h2,
-  #promise h2,
-  #community h2,
-  #checklist h2,
-  #quote h2  {
-    font-size: 63px;
-  }
-  #banner .container > p,
-  #info .container > p,
-  #promise .container > p,
-  #community .container > p,
-  #checklist .container > p ,
-  #quote .container > p {
-    padding: 0 10em;
-    font-size: 21px;
-    padding-bottom: 35px;
-  }
+
   /*COMMUNITY*/
   #community .row  [class*="col-sm-6"] > p {
     padding: 0;
