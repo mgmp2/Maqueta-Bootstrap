@@ -76,6 +76,19 @@
     border-radius: 21px;
     font-size: 18px;
   }
+  .circle {
+    border-radius: 50%
+  }
+  /*COMMUNITY*/
+  [class*="test-"]{
+    margin: 0 auto;
+  }
+  .icon--rating-5 {
+    width: 80px;
+    margin: 0 auto;
+    display: block;
+    height: 21px;
+  }
 
   /*INFO*/
   #info{
@@ -147,18 +160,6 @@
     font-size: 21px;
     padding-bottom: 35px;
   }
-
-
-  }
-  #banner .container > p,
-  #info .container > p,
-  #promise .container > p,
-  #community .container > p,
-  #checklist .container > p ,
-  #quote .container > p {
-    font-size: 35px;
-    padding-bottom: 35px;
-  }
   /*BANNER*/
   h1 {
     font-size: 56px;
@@ -217,5 +218,19 @@
     padding: 0 120px;
 
   }
-
+  /*COMMUNITY*/
+  #community .row  [class*="col-sm-6"] > p {
+    padding: 0;
+    font-size: 17px;
+    text-align: left;
+  }
+  #community h4 {
+    font-size: 1.8em;
+  }
+  .icon--rating-5 {
+    margin: 0;
+    background-size: 25%;
+    height: 42px;
+    width: 100%;
+  }
 }
