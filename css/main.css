@@ -26,11 +26,19 @@
   /*BANNER*/
   #banner {
     height: 485px;
+    position: relative;
   }
   #banner.icon--hero-bg {
     background-size: 1400px;
     border: 1px solid black;
     background-position-x: right;
+  }
+  #banner > div:first-child {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: 1484px;
+    background-position-x: center;
   }
   #banner .row > div {
     top: 91px;
