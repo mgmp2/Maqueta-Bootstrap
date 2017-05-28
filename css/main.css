@@ -70,11 +70,14 @@
   #community .container > p,
   #checklist .container > p ,
   #quote .container > p {
-    font-size: 21px;
+    font-size: 35px;
     padding-bottom: 35px;
   }
 
   /*INFO*/
+  #info p {
+    font-size: 21px;
+  }
   #info .row > [class*="col-sm-"] {
     padding-right: 28px;
     padding-left: 28px;
