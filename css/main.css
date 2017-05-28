@@ -5,30 +5,128 @@
   margin:0;
   box-sizing: border-box;
 }
+/*SPRITE*/
+  .test-jes , .test-nic, .test-ren {
+    background-image: url('../assets/images/background/testimonials.jpg');
+    background-repeat: no-repeat;
+    display: block;
+    width: 100px;
+    height: 102px;
+  }
+  .test-jes {
+    background-position: 0 0;
+  }
+  .test-ren {
+    background-position: 0 -102px;
+  }
+  .test-nic {
+    background-position: 0 -204px;
+  }
+  /*BANNER*/
+  #banner {
+    height: 485px;
+    position: relative;
+  }
+  #banner * {
+    color: #fff;
+  }
+  #banner li > a:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: #3498db;
+  }
+  #banner.icon--hero-bg {
+    background-size: 1400px;
+    background-position-x: right;
 
-/*PROMISE */
+  }
+  #banner > div:first-child {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position-x: center;
+  }
+  #banner > div:nth-child(2) {
+    position: absolute;
+    width: 70px;
+    height: 100%;
+    background-position: right 158px;
+  }
+  #banner > div:nth-child(3) {
+    right: 0;
+    bottom: 0;
+    width: 15%;
+    height: 19%;
+    position: absolute;
+    background-position-x: left;
+  }
+  #banner .row > div {
+    top: 91px;
+  }
+  #banner .row img {
+    width: 119px;
+  }
+  #banner p {
+    color: #fff;
+    font-size: 18px;
+    padding: 21px;
+  }
+  #banner [type="submit"] {
+    padding: 7px 41px;
+    border-radius: 21px;
+    font-size: 18px;
+  }
 
-#promise [class*="icon-"] {
-  width: 20px;
-  height: 20px;
+  /*INFO*/
+  #info{
+    background: #F9F9F9;
+  }
+  #info p {
+    font-weight: 600;
+    line-height: 1.8;
+  }
+  #info .row {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
 
-}
-#promise h5,
-#promise .glyphicon {
-  color: #6EA43F;
-  font-weight: 600;
-}
-#promise hr {
-  width: 100%;
-}
-#promise [class*="icon-"] {
-width: 56px;
-height: 56px;
-background-size: 100%;
-}
-#promise .glyphicon-chevron-down {
-  top: 11px;
-}
+  .icon-relative {
+    width: 224px;
+    height: 224px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+  }
+  .icon-absolute {
+    top: 3%;
+    left: 7%;
+    width: 100%;
+    height: 100%;
+    background-size: 87%;
+    position: absolute;
+  }
+  /*PROMISE */
+  #promise [class*="icon-"] {
+    width: 20px;
+    height: 20px;
+
+  }
+  #promise h5,
+  #promise .glyphicon {
+    color: #6EA43F;
+    font-weight: 600;
+  }
+  #promise hr {
+    width: 100%;
+  }
+  #promise [class*="icon-"] {
+  width: 56px;
+  height: 56px;
+  background-size: 100%;
+  }
+  #promise .glyphicon-chevron-down {
+    top: 11px;
+  }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:1025px)  {
   /*GENERAL*/
@@ -50,6 +148,62 @@ background-size: 100%;
     padding-bottom: 35px;
   }
 
+
+  }
+  #banner .container > p,
+  #info .container > p,
+  #promise .container > p,
+  #community .container > p,
+  #checklist .container > p ,
+  #quote .container > p {
+    font-size: 35px;
+    padding-bottom: 35px;
+  }
+  /*BANNER*/
+  h1 {
+    font-size: 56px;
+    font-weight: 700;
+  }
+    #banner.icon--hero-bg {
+      background-size: 100%;
+    }
+  #banner > div:nth-child(2) {
+    margin-left: 140px;
+    width: 267px;
+  }
+  #banner > div:nth-child(3) {
+    left: 60%;
+  }
+  #banner .row > div {
+    top: 21px;
+  }
+
+
+  /*INFO*/
+  #info p {
+    font-size: 21px;
+  }
+  #info .row > [class*="col-sm-"] {
+    padding-right: 28px;
+    padding-left: 28px;
+  }
+
+  .icon-relative {
+    width: 80%;
+    height: 268px;
+  }
+  .icon-absolute {
+    left: 3em;
+    top: 2em;
+    background-size: 14em;
+  }
+
+  #info .row > div:nth-child(2) {
+    text-align: left;
+  }
+  #info .row > div:nth-child(2) h3 > strong {
+    font-size: 4rem;
+  }
   /*PROMISE*/
   .collapse {
     display: block;
@@ -60,7 +214,7 @@ background-size: 100%;
     text-align: center;
   }
   #promise .container > p {
-    padding: 0 10em;
+    padding: 0 120px;
 
   }
 
