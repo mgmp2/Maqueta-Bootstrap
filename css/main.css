@@ -23,7 +23,30 @@
   .test-nic {
     background-position: 0 -204px;
   }
-
+  /*BANNER*/
+  #banner {
+    height: 485px;
+  }
+  #banner.icon--hero-bg {
+    background-size: 1400px;
+    border: 1px solid black;
+    background-position-x: right;
+  }
+  #banner .row > div {
+    top: 91px;
+  }
+  #banner .row img {
+    width: 119px;
+  }
+  #banner p {
+    color: #fff;
+    font-size: 18px;
+    padding: 21px;
+  }
+  #banner [type="submit"] {
+    padding: 14px 63px;
+    border-radius: 21px;
+  }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:1025px)  {
   /*GENERAL*/
