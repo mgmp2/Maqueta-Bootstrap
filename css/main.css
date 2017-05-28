@@ -1,58 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 * {
+  font-family: 'Roboto', Arial, sans-serif;
   margin:0;
   box-sizing: border-box;
 }
-p {
-  font-weight: 700;
-}
-.icon-absolute {
-  position: absolute;
-  background-size: 18rem;
-  height: 100%;
-  width: 80%;
-}
-
-/*INFO*/
-#info{
-  background: #F9F9F9;
-}
-#info .row {
-  padding: 21px 0;
-}
-.img-circle {
-  width: 224px;
-  height: 224px;
-  padding: 14px;
-  margin: 0 auto;
-}
-/*CHECKLIST */
-
-#checklist .img-relative img {
-  transform: translateX(-100%) rotateZ(-5deg)
-}
-.check-hw img: ; {
-  height: 20px!important;
-}
-
-.img-relative {
-  position: relative;
-  left: 80%;
-}
-.img-absolute {
-  position: absolute;
-
-}
-.check-hw > div {
-  background: #fff;
-color: #000;
-border-radius: 8px;
-  border-color: #000;
-}
-.check-hw ul > li span {
-  width: 20px;
-    height: 20px;
-    position: absolute;
-}
+/*SPRITE*/
+  .test-jes , .test-nic, .test-ren {
+    background-image: url('../assets/images/background/testimonials.jpg');
+    background-repeat: no-repeat;
+    display: block;
+    width: 100px;
+    height: 102px;
+  }
+  .test-jes {
+    background-position: 0 0;
+  }
+  .test-ren {
+    background-position: 0 -102px;
+  }
+  .test-nic {
+    background-position: 0 -204px;
+  }
 footer ul >li {
   text-align: center;
 }
@@ -63,28 +32,41 @@ footer ul >li a:hover {
 footer ul >li a:hover, footer ul >li a:focus {
   background: rgba(255, 255, 255, 0)!important;
 }
+footer .fot-iconos {
+  height: 35px;
+}
+footer ul, footer li {
+  height: 100%;
+}
+footer .fot-iconos ul > li {
+  display: inline-block;
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid #1280c9;
+  background: #1280c9;
+  color: #fff;
+}
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:768px)  {
+  /*GENERAL*/
+  #banner h2,
+  #info h2,
+  #promise h2,
+  #community h2,
+  #checklist h2,
+  #quote h2  {
+    font-size: 49px;
+  }
+  #banner .container > p,
+  #info .container p,
+  #promise .container > p,
+  #community .container > p,
+  #checklist .container > p ,
+  #quote .container > p {
+    font-size: 21px;
+    padding-bottom: 35px;
+  }
 
-  /*INFO*/
-  .icon-absolute {
-    background-size: 23rem;
-    right: 0;
-    top: 28px;
-  }
-  .img-circle {
-    width: 289px;
-    height: 289px;
-  }
-  #info .row > div:nth-child(2) {
-    text-align: left;
-  }
-  #info .row > div:nth-child(2) h3 > strong{
-    font-size: 4rem;
-  }
-  #info .row > div:nth-child(2) strong {
-    font-size: 1.8rem;
-  }
   /*FOOTER*/
   footer ul *{
     text-align: left;
